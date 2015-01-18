@@ -1,0 +1,96 @@
+/** {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
+
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td {
+    margin:0;
+    padding:0;
+}
+
+body,button,input,select,textarea {
+    font: 13px/1.5 'Hiragino Sans GB', tahoma, arial, "Microsoft Yahei" , \5b8b\4f53, sans-serif
+}
+
+body {
+    -webkit-font-smoothing: antialiased
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+}
+
+address,cite,dfn,em,var {
+    font-style:normal;
+}
+
+code,kbd,pre,samp {
+    font-family: courier new,courier,monospace;
+}
+
+small {
+    font-size:12px;
+}
+
+ul,ol {
+    list-style:none;
+}
+
+a {
+    text-decoration:none;
+}
+
+sup {
+    vertical-align:text-top;
+}
+
+sub {
+    vertical-align:text-bottom;
+}
+
+legend {
+    color:#000;
+}
+
+fieldset,img {
+    border:0;
+}
+
+button,input,select,textarea {
+    font-size:100%;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* 所有页面的回到顶部 */
+.goTop {
+    position: fixed;
+    right: 15px;
+    bottom: 55px;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.goTop i {
+    display: inline-block;
+    color: yellow;  
+}
+.goTop i.icon-backtothetop {
+    font-size: 45px;
+}
+
+.goTop i.icon-mail {
+    font-size: 43px;
+    color: yellow;
+}
+
+
