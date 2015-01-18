@@ -1074,7 +1074,7 @@
 	    border-radius: 50%;
 	    top: -73px;
 	    left: 54px;
-	    transform: scale(0.7);
+	    transform: scale(0.7) rotate(20deg);
 	    z-index: -10;
 	    -webkit-box-sizing: content-box;
 	}
